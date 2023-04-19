@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="../modules/script.js" type="module"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <main>
+      <h2 id="nameTag"></h2>
+      <div id="playerChoice">Choose</div>
+      <article>
+        <div id="buttonContainer">
+          <img
+            id="rockBtn"
+            data-choiceNr="0"
+            class="imgChoice"
+            src="../media/stone.png"
+            alt="Rock"
+          />
+          <img
+            id="paperBtn"
+            data-choiceNr="1"
+            class="imgChoice"
+            src="../media/toilet-paper.png"
+            alt="Paper"
+          />
+          <img
+            id="scissorsBtn"
+            data-choiceNr="2"
+            class="imgChoice"
+            src="../media/scissors.png"
+            alt="Scissors"
+          />
+        </div>
+        <div id="scoreContainer">
+          <h1 id="currentScore">Score: 0</h1>
+        </div>
+        <div id="opponentChoice">
+          <img
+            class="imgChoice"
+            id="opponentChoiceImg"
+            src="../media/star.png"
+            alt="rock Paper Scissors picture"
+          />
+        </div>
+      </article>
+      <h3 id="pointText"></h3>
+      <h1 id="announcement"></h1>
+    </main>
+    <button id="reset">Reset scores</button>
+  </body>
+</html>
